@@ -27,7 +27,7 @@ body {
 
 .container h3 {
     font-size: 35px;
-    font-family: "Freestyle Script", cursive;
+    font-family: "Bradley Hand ITC", cursive;
 }
 
 .container p {
@@ -45,6 +45,13 @@ body {
     height: 22vh;
 }
 
+#introduction:hover, #projects:hover, #courses:hover {
+    background: radial-gradient(circle, darkslategray, black);
+    transition: color 0.4s, box-shadow 0.3s;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
 #introduction p , #projects p , #courses p {
     padding-top: 60px;
     font-style: normal;
@@ -52,6 +59,10 @@ body {
 
 #projects h3, #introduction h3, #courses h3 {
     padding-bottom: 70px;
+}
+
+#introduction h3 {
+        padding-left: 30px;
 }
 
 #education, #hobbies, #pets {
@@ -63,6 +74,13 @@ body {
     background: radial-gradient(circle, lightgoldenrodyellow, peachpuff);
     margin-right: 650px;
     height: 22vh;
+}
+
+#education:hover, #hobbies:hover, #pets:hover {
+    background: radial-gradient(circle, black, darkslategray);
+    transition: color 0.4s, box-shadow 0.3s;
+    color: white;
+    box-shadow: 0 0 10px black;
 }
 
 #pets p {
@@ -92,6 +110,10 @@ body {
     margin: 25px;
     padding: 4px;
     border-radius: 15px;
+}
+
+#cont:hover, #image:hover, #update_main_page:hover, #up_main_page:hover {
+    box-shadow: 0 0 20px 5px whitesmoke;
 }
 
 #up_main_page {

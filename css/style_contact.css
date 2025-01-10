@@ -40,6 +40,12 @@ body {
     padding: 4px;
     border-radius: 15px;
 }
+
+#update_contacts:hover, #link_main_contacts:hover, #link_gallery_contacts:hover, #up_contacts_page:hover {
+    box-shadow: 0 0 20px 5px whitesmoke;
+
+}
+
 #up_contacts_page {
     background: linear-gradient(to right, #ff66c4, #ffde59);
 }
@@ -82,13 +88,33 @@ body {
     font-family: "Bradley Hand ITC", cursive;
     font-size: 5em;
     background: radial-gradient(circle, darkgray, whitesmoke);
-
-
 }
 
-#linkedinlogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 150px;
+#link_linkedin:hover , #link_github:hover , #link_telegram:hover {
+    box-shadow:0 0 20px 5px black;
+    transition: box-shadow 0.3s;
+    background: radial-gradient(circle, darkslategray, black);
 }
+
+#link_linkedin:hover a, #link_github:hover a, #link_telegram:hover a {
+    color: white;
+    transition: color 0.3s;
+}
+
+#linkedinlogo, #telegramlogo {
+    position: relative;
+    top: 25%;
+    right: 42%;
+}
+
+#githublogo {
+    position: relative;
+    top: 25%;
+    right: 33%;
+}
+
+#link_linkedin a , #link_github a , #link_telegram a {
+    position: relative;
+    left: 50px;
+}
+
