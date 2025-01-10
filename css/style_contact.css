@@ -1,0 +1,94 @@
+body {
+    background: radial-gradient(circle, dimgray, black);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(ellipse, dimgray, black);
+    height: 30vh;
+    border-radius: 15px;
+}
+
+.header_name {
+    text-align: center;
+    color: lightgray;
+    font-size: 2em;
+    font-style: normal;
+    font-family: "Bradley Hand ITC", cursive;
+}
+
+.image_header_pravo, .image_header_levo {
+    display: flex;
+    align-items: center;
+    margin: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    padding-top: 200px;
+}
+
+#update_contacts, #link_main_contacts, #link_gallery_contacts, #up_contacts_page {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 4px;
+    border-radius: 15px;
+}
+#up_contacts_page {
+    background: linear-gradient(to right, #ff66c4, #ffde59);
+}
+
+#update_contacts{
+    background: linear-gradient(to right, #000000, #737373);
+}
+
+#link_main_contacts {
+    background: linear-gradient(to right, #a6a6a6, #ffffff);
+}
+
+#link_gallery_contacts {
+    background: linear-gradient(to right, #0097b2, #7ed957);
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    padding-top: 220px;
+}
+
+.links a {
+    text-decoration-line: none;
+    color: black;
+}
+
+#link_linkedin , #link_github , #link_telegram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 45px;
+    background: white;
+    border-radius: 15px;
+    height: 300px;
+    width: 400px;
+    font-family: "Bradley Hand ITC", cursive;
+    font-size: 5em;
+    background: radial-gradient(circle, darkgray, whitesmoke);
+
+
+}
+
+#linkedinlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}

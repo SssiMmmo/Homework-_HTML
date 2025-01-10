@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background: radial-gradient(ellipse, black, dimgray);
+    background: radial-gradient(ellipse, dimgray, black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,17 +19,12 @@ body {
     font-style: normal;
 }
 
-.image_header_pravo {
+.image_header_pravo, .image_header_levo {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 80px;
 }
 
-.image_header_levo {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
 .container h3 {
     font-size: 35px;
     font-family: "Freestyle Script", cursive;
