@@ -1,0 +1,117 @@
+body {
+    background: radial-gradient(circle, dimgray, black);
+}
+
+.header {
+    background: radial-gradient(ellipse, black, dimgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border-radius: 15px;
+}
+
+.header_name {
+    text-align: center;
+    color: lightgray;
+    font-family: "Bradley Hand ITC", cursive;
+    font-size: 2em;
+    font-style: normal;
+}
+
+.image_header_pravo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.image_header_levo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.container h3 {
+    font-size: 35px;
+    font-family: "Freestyle Script", cursive;
+}
+
+.container p {
+    font-family: "Times New Roman", serif ;
+}
+
+#introduction, #projects, #courses  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    background: radial-gradient(circle, peachpuff, lightgoldenrodyellow);
+    margin-left: 650px;
+    height: 22vh;
+}
+
+#introduction p , #projects p , #courses p {
+    padding-top: 60px;
+    font-style: normal;
+}
+
+#projects h3, #introduction h3, #courses h3 {
+    padding-bottom: 70px;
+}
+
+#education, #hobbies, #pets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    background: radial-gradient(circle, lightgoldenrodyellow, peachpuff);
+    margin-right: 650px;
+    height: 22vh;
+}
+
+#pets p {
+    padding-top: 60px;
+    font-style: normal;
+}
+
+#education p , #hobbies p {
+    padding-top: 90px;
+    font-style: normal;
+}
+
+#education h3 , #hobbies h3 , #pets h3 {
+    padding-bottom: 70px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px;
+}
+
+#cont, #image, #update_main_page, #up_main_page  {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 4px;
+    border-radius: 15px;
+}
+
+#up_main_page {
+    background: linear-gradient(to right, #ff66c4, #ffde59);
+}
+
+#cont{
+    background: linear-gradient(to right, #000000, #737373);
+}
+
+#update_main_page {
+    background: linear-gradient(to right, #a6a6a6, #ffffff);
+}
+
+#image {
+    background: linear-gradient(to right, #0097b2, #7ed957);
+}
+
