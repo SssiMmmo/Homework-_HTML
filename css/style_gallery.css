@@ -92,12 +92,14 @@ body {
     transform: translate(-50%, -50%) rotate(0deg) translateY(-350px);
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+    animation: pic1 3s linear infinite;
 }
 #pic1:active {
-    transform: translate(-150px, -150px) rotateY(180deg);
+    transform: translate(-150px, -125px) rotateY(180deg);
     width: 100%;
     height: 100%;
     box-shadow: 0 0 20px 5px black;
+    animation: none;
     transition: transform 0.5s, width 0.5s, height 0.5s, box-shadow 0.5s;
 }
 
@@ -105,13 +107,15 @@ body {
     transform: translate(-50%, -50%) rotate(60deg) translateY(-350px);
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+    animation: pic2 3s linear infinite;
 }
 
 #pic2:active {
-    transform: translate(-150px, -150px) rotateY(180deg);
+    transform: translate(-150px, -125px) rotateY(180deg);
     width: 100%;
     height: 100%;
     box-shadow: 0 0 20px 5px black;
+    animation: none;
     transition: transform 0.5s, width 0.5s, height 0.5s, box-shadow 0.5s;
 }
 
@@ -119,13 +123,15 @@ body {
     transform: translate(-50%, -50%) rotate(120deg) translateY(-350px);
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+    animation: pic3 3s linear infinite;
 }
 
 #pic3:active {
-    transform: translate(-150px, -150px) rotateY(180deg);
+    transform: translate(-150px, -125px) rotateY(180deg);
     width: 100%;
     height: 100%;
     box-shadow: 0 0 20px 5px black;
+    animation: none;
     transition: transform 0.5s, width 0.5s, height 0.5s, box-shadow 0.5s;
 }
 
@@ -133,13 +139,15 @@ body {
     transform: translate(-50%, -50%) rotate(180deg) translateY(-350px);
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+    animation: pic4 3s linear infinite;
 }
 
 #pic4:active {
-    transform: translate(-150px, -150px) rotateY(180deg);
+    transform: translate(-150px, -125px) rotateY(180deg);
     width: 100%;
     height: 100%;
     box-shadow: 0 0 20px 5px black;
+    animation: none;
     transition: transform 0.5s, width 0.5s, height 0.5s, box-shadow 0.5s;
 }
 
@@ -147,13 +155,15 @@ body {
     transform: translate(-50%, -50%) rotate(240deg) translateY(-350px);
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+    animation: pic5 3s linear infinite;
 }
 
 #pic5:active {
-    transform: translate(-150px, -150px) rotateY(180deg);
+    transform: translate(-150px, -125px) rotateY(180deg);
     width: 100%;
     height: 100%;
     box-shadow: 0 0 20px 5px black;
+    animation: none;
     transition: transform 0.5s, width 0.5s, height 0.5s, box-shadow 0.5s;
 }
 
@@ -161,12 +171,68 @@ body {
     transform: translate(-50%, -50%) rotate(300deg) translateY(-350px);
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+    animation: pic6 3s linear infinite;
 }
 
 #pic6:active {
-    transform: translate(-150px, -150px) rotateY(180deg);
+    transform: translate(-150px, -125px) rotateY(180deg);
     width: 100%;
     height: 100%;
     box-shadow: 0 0 20px 5px black;
+    animation: none;
     transition: transform 0.5s, width 0.5s, height 0.5s, box-shadow 0.5s;
+}
+
+@keyframes pic1 {
+    from {
+        transform: translate(-50%, -300%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -300%) rotate(360deg);
+    }
+}
+
+@keyframes pic2 {
+    from {
+        transform: translate(250%, -120%) rotate(0deg);
+    }
+    to {
+        transform: translate(250%, -120%) rotate(360deg);
+    }
+}
+
+@keyframes pic3 {
+    from {
+        transform: translate(250%, 120%) rotate(0deg);
+    }
+    to {
+        transform: translate(250%, 120%) rotate(360deg);
+    }
+}
+
+@keyframes pic4 {
+    from {
+        transform: translate(-50%, 300%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, 300%) rotate(360deg);
+    }
+}
+
+@keyframes pic5 {
+    from {
+        transform: translate(-350%, 120%) rotate(0deg);
+    }
+    to {
+        transform: translate(-350%, 120%) rotate(360deg);
+    }
+}
+
+@keyframes pic6 {
+    from {
+        transform: translate(-350%, -120%) rotate(0deg);
+    }
+    to {
+        transform: translate(-350%, -120%) rotate(360deg);
+    }
 }
