@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     margin: 80px;
+    animation: kitties 5s ease-in infinite;
 }
 
 .footer {
@@ -127,3 +128,11 @@ body {
     left: 50px;
 }
 
+@keyframes kitties {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}

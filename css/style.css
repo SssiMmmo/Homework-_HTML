@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     margin: 80px;
+    animation: kitties 5s ease-in infinite;
 }
 
 .container h3 {
@@ -142,3 +143,11 @@ body {
     background: linear-gradient(to right, #0097b2, #7ed957);
 }
 
+@keyframes kitties {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}

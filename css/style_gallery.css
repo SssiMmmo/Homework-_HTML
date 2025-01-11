@@ -11,16 +11,11 @@ body {
     height: 30vh;
 }
 
-.image_header_levo {
+.image_header_levo, .image_header_pravo {
     display: flex;
     align-items: center;
     margin: 80px;
-}
-
-.image_header_pravo {
-    display: flex;
-    align-items: center;
-    margin: 80px;
+    animation: kitties 5s ease-in infinite;
 }
 
 .header_name {
@@ -234,5 +229,14 @@ body {
     }
     to {
         transform: translate(-350%, -120%) rotate(360deg);
+    }
+}
+
+@keyframes kitties {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
     }
 }
