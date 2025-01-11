@@ -40,6 +40,15 @@ body {
     padding: 4px;
     border-radius: 15px;
 }
+#up_contacts_page {
+    position: relative;
+    left:400px;
+}
+
+#update_contacts, #link_main_contacts, #link_gallery_contacts {
+    position: relative;
+    right:400px;
+}
 
 #update_contacts:hover, #link_main_contacts:hover, #link_gallery_contacts:hover, #up_contacts_page:hover {
     box-shadow: 0 0 20px 5px whitesmoke;

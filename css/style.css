@@ -112,6 +112,16 @@ body {
     border-radius: 15px;
 }
 
+#cont, #image, #update_main_page{
+    position: relative;
+    right: 400px;
+}
+
+#up_main_page {
+    position: relative;
+    left: 400px;
+}
+
 #cont:hover, #image:hover, #update_main_page:hover, #up_main_page:hover {
     box-shadow: 0 0 20px 5px whitesmoke;
 }
